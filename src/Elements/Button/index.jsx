@@ -2,7 +2,7 @@ const Button = (props) => {
   const {
     children = 'Button',
     classname = 'bg-black',
-    onClick = () => { },
+    onClick = () => {},
     type = 'button'
   } = props;
 

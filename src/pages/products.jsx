@@ -73,7 +73,7 @@ const ProductsPage = () => {
                 <CardProduct.Footer
                   id={product.id}
                   price={product.price}
-                  handleAddTocart={handleAddToCart}
+                  handleAddToCart={handleAddToCart}
                 >
                 </CardProduct.Footer>
               </CardProduct>
