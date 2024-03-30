@@ -31,7 +31,7 @@ const FormRegister = () => {
         htmlFor="confirmPassword"
         placeholder="********"
       />
-      <Button classname="bg-blue-600 w-full">Register</Button>
+      <Button classname="bg-primary w-full">Register</Button>
     </form>
   )
 }

@@ -8,6 +8,8 @@ import RegisterPage from "./pages/register.jsx";
 import ErrorPage from "./pages/errorPage.jsx";
 import ProductsPage from "./pages/products.jsx";
 import VantaPage from "./pages/vanta.jsx";
+import CloudsPage from "./pages/clouds.jsx";
+import HomePage from "./pages/home.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,12 +26,20 @@ const router = createBrowserRouter([
     element: <RegisterPage />,
   },
   {
+    path: "/home",
+    element: <HomePage />,
+  },
+  {
     path: "/products",
     element: <ProductsPage />,
   },
   {
     path: "/vanta",
     element: <VantaPage />,
+  },
+  {
+    path: "/clouds",
+    element: <CloudsPage />,
   },
 ]);
 

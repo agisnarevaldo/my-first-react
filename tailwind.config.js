@@ -11,6 +11,12 @@ export default {
       },
       boxShadow: {
         '3xl': '0px 10px 11px 0px rgba(0, 0, 0, 0.34)',
+      },
+      colors: {
+        'primary': '#436850'
+      },
+      backgroundColor: {
+        'primary': '#436850'
       }
     },
   },

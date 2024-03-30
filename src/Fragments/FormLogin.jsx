@@ -6,7 +6,8 @@ const FormLogin = () => {
     event.preventDefault();
     localStorage.setItem('email', event.target.email.value);
     localStorage.setItem('password', event.target.password.value);
-    window.location.href = "/products";
+    window.location.href = "/home";
+    // window.location.href = "/products";
   }
   return (
     <form onSubmit={handleLogin}>
@@ -25,7 +26,7 @@ const FormLogin = () => {
         placeholder="********"
       />
       <Button
-        classname="bg-blue-600 w-full"
+        classname="bg-primary w-full"
         type="submit"
       >
         Login
